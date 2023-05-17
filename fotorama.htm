@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asi Rent a Car</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon" />
+    <!-- JS -->
+    <script src="https://kit.fontawesome.com/e60f103206.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- bootstrap -->
+    <!-- CSS only -->
+    <script src="https://kit.fontawesome.com/e60f103206.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Cdn foto -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <style>
+        .galleryContainer {
+            margin: 40px;
+        }
+
+
+        .foto-avto {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .info-car-asi>p , h3{
+            text-align: center;
+
+        }
+
+        #galleryAvto {
+            width: 100%;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        td,
+        tr,
+        th {
+            border: 1px solid #7a7979;
+            width: 200px;
+            height: 50px;
+
+        }
+
+        th {
+            background-color: #666;
+            color: #fff;
+            text-shadow: 0 0 2px blue;
+        }
+
+
+        @media only screen and (min-width: 992px) {
+
+            .foto-avto {
+                flex-direction: row !important;
+                align-items: inherit;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://wa.me/0517711111" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <header>
+        <div class="logo"><img src="img/tamlogo.png" alt=""></div>
+        <li id="bayraq">
+            <a href="tel:+994517711111"><img src="img/azerbaijan.png" alt="bayraq"> +994 517711111</a>
+        </li>
+        <div class="hamburger">
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+        </div>
+        <div class="nav-bar">
+
+            <ul class="menuu">
+                <li>
+                    <a href="index.htm"><i class="fa-solid fa-house"></i> Ana Səhifə</a>
+                </li>
+                <li>
+                    <a href="avto.htm"><i class="fa-solid fa-car"> </i> Avtomobillər</a>
+                </li>
+
+                <li>
+                    <a href="#elaqe"><i class="fa-solid fa-phone"> </i> Əlaqə</a>
+                </li>
+
+                <li>
+                    <select class="selectBox">
+                        <div class="selectBoxTop">
+                                <option class="selectedLang"> AZ</option>
+                        </div>
+                        <div class="selectBoxInner">
+
+                            <div class="selectLang">
+                                <option class="otherLang">EN</option>
+                            </div>
+                        </div>
+                    </select>
+                </li>
+            </ul>
+            <div class="icons">
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+    </header>
+    <main>
+
+
+        <div class="galleryContainer">
+            <div class="foto-avto">
+                <div>
+                    <section id="galleryAvto">
+
+                        <div class="fotorama fotorama-gallery">
+                            <img src="img/landcruz.jpg" alt="wew">
+                            <img src="img/maybach.jpg" alt="wew">
+                            <img src="img/ranc.jpg" alt="wew">
+                        </div>
+
+                    </section>
+                </div>
+                <div class="foto-asi">
+                    <img src="img/tamlogo.png" alt="rentacarbaku" />
+                    <div class="info-car-asi">
+                        <h3>Mercedes Benz Maybach</h3>
+                        <p><span><i class="fa-solid fa-gears"></i> </span> Yanacaq Sərfiyyatı ................... 8 L</p>
+                        <p><span><i class="fa-solid fa-gears"></i> </span>Oturacaqların Sayı ............... 5 </p>
+                        <p><span><i class="fa-solid fa-gears"></i> </span>Sinif .................... Busines Class</p>
+                        <p><span><i class="fa-solid fa-gears"></i> </span> İli .................... 2020</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <table>
+                <tr>
+                    <th>Günlük</th>
+                    <th>Qiymət</th>
+                </tr>
+
+                <tr>
+                    <td>1/3 day</td>
+                    <td>70 $</td>
+                </tr>
+
+                <tr>
+                    <td>3/7 day</td>
+                    <td>65 $</td>
+                </tr>
+
+                <tr>
+                    <td>7/21 day</td>
+                    <td>60 $</td>
+                </tr>
+
+                <tr>
+                    <td>21+ day</td>
+                    <td>55 $</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="text-center text-lg-start  text-white" id="elaqe">
+        <!-- Section: Sosial media-->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- sol -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Bizimlə buradan əlaqə saxlaya bilərsiz</span>
+            </div>
+            <!-- sol -->
+
+            <!-- sag-->
+            <div>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-white">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- sol-->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="nodisplay">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>ASI Rent a Car
+                        </h6>
+                        <p>
+                            Şişirdilmiş qiymətlərə son !
+                        </p>
+                    </div>
+
+
+
+
+                    <div class="col-md-3 orrey  col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4"> Üstünlüklərimiz</h6>
+                        <p>
+                            <a href="#!" class="text-white">Yüksək Keyfiyyət</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Xoş Münasibət</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Aşağı qiymət</a>
+                        </p>
+                    </div>
+
+
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Əlaqə</h6>
+                        <p><i class="fas fa-home me-3"> </i> AZ Ziya Bunyadov 5</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><a href="tell:+994517741111" class="text-white"><i class="fas fa-phone me-3"></i>
+                                +994517741111</a></p>
+                        <p><i class="fas fa-print me-3"></i> +994517741111</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12151.515610293418!2d49.8373136!3d40.4115334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbcbb8b31d8979443!2sAS%C4%B0%20Rent%20a%20Car!5e0!3m2!1sen!2s!4v1665242541581!5m2!1sen!2s"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);"> © 2022 Copyright: <a
+                class="text-white fw-bold" href="https://">Ganji Yusifov</a>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $('.fotorama-gallery').fotorama({
+            nav: 'thumbs',
+            thumbheight: 200,
+            thumbwidth: 200,
+            height: 500,
+            width: 400
+        });
+    </script>
+</body>
+
+</html>
